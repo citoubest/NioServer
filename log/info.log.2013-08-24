@@ -1,0 +1,7 @@
+11:01:16,485   INFO logTest:34 : clean idle session:0
+ 11:01:16,490   INFO logTest:35 : session size:2
+ 11:12:27,054   INFO logTest:34 : clean idle session:0
+ 11:12:27,059   INFO logTest:35 : session size:2
+ 11:17:27,054   INFO logTest:34 : clean idle session:0
+ 11:17:27,054   INFO logTest:35 : session size:2
+ 

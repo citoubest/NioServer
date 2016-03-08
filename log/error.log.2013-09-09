@@ -1,0 +1,10 @@
+19:24:03,333  ERROR logTest:71 : startServices:Address already in use: bind
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:119)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:52)
+	at com.nku.nioserver.SServer.<init>(SServer.java:48)
+	at com.nku.main.SessionStateMgr.startServices(SessionStateMgr.java:64)
+	at com.nku.main.SessionStateMgr.init(SessionStateMgr.java:50)
+	at com.nku.main.SessionStateMgr.main(SessionStateMgr.java:38)
